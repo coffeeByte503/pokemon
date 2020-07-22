@@ -7,19 +7,19 @@
 
 /* provide fonts */
 @font-face { font-family: 'Pixelar Regular';
-             src: url('../fonts/Pixelar Regular.otf') format('opentype'); }
+             src: url('fonts/Pixelar Regular.otf') format('opentype'); }
 @font-face { font-family: 'Pixelar Outline';
-             src: url('../fonts/Pixelar Outline.otf') format('opentype'); }
+             src: url('fonts/Pixelar Outline.otf') format('opentype'); }
 @font-face { font-family: 'Pixelar Outline Textured';
-             src: url('../fonts/Pixelar Outline Textured.otf') format('opentype'); }
+             src: url('fonts/Pixelar Outline Textured.otf') format('opentype'); }
 @font-face { font-family: 'Pixelar Textured';
-             src: url('../fonts/Pixelar Textured.otf') format('opentype'); }
+             src: url('fonts/Pixelar Textured.otf') format('opentype'); }
 @font-face { font-family: 'PermianSans';
-             src: url('../fonts/PermianSansTypeface.otf') format('opentype'); }
+             src: url('fonts/PermianSansTypeface.otf') format('opentype'); }
 @font-face { font-family: 'PermianSansBold';
-             src: url('../fonts/PermianSansTypeface-Bold.otf') format('opentype'); }
+             src: url('fonts/PermianSansTypeface-Bold.otf') format('opentype'); }
 @font-face { font-family: 'PermianSansItalic';
-             src: url('../fonts/PermianSansTypeface-Italic.otf') format('opentype'); }
+             src: url('fonts/PermianSansTypeface-Italic.otf') format('opentype'); }
 
 /* set general font and background colour */
 html {
@@ -32,4 +32,6 @@ html, body {
 	height: 100%;
 }
 
-
+h1 {
+	font-family: 'Pixelar Regular';
+}
