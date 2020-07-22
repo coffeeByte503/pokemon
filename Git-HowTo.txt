@@ -1,3 +1,29 @@
 1. step: clone the project to your local machine:
-   git clone https://github.com/luis72353/pokemon.git
+   <git clone https://github.com/luis72353/pokemon.git>
+
+2. ALWAYS before starting to work on something and 
+   occasionally in the meantime update your local 
+   repository with changes from remote repository:
+   <git pull>
+
+3. How to commit & push changes you made:
+   a) add changes designated for upload to your local
+      stack:
+      <git add <files to add>> (you can work with *)
+   b) good style: put changes of specific scope into
+      a single commit (locally). e.g. you fix a bug, 
+      then commit only this minor change locally:
+      <git commit -m "message">
+   c) to upload your changes from local to remote 
+      repository follow the following steps...
+   d) ALWAYS update your local repository with all 
+      changes from remote repository first before  
+      uploading anything:
+      <git pull>
+   e) resolve conflicts if anything already changed
+      in remote repository:
+      <git merge> or directly fix it in the files
+   f) if you were slow: pull & resolve (merge) again!
+   g) finally push your changes to remote repository:
+      <git push>
 
