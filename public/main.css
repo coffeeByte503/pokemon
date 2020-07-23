@@ -20,6 +20,8 @@
              src: url('fonts/PermianSansTypeface-Bold.otf') format('opentype'); }
 @font-face { font-family: 'PermianSansItalic';
              src: url('fonts/PermianSansTypeface-Italic.otf') format('opentype'); }
+@font-face { font-family: 'Rimbo';
+             src: url('fonts/Rimbo-Regular.otf') format('opentype'); }
 
 /* set general font and background colour */
 html {
@@ -33,5 +35,5 @@ html, body {
 }
 
 h1 {
-	font-family: 'Pixelar Regular';
+	font-family: Rimbo;
 }
