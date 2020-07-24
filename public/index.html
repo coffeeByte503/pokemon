@@ -29,14 +29,21 @@
     <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-    <script type="module" src="main.js"></script>
     <link rel="stylesheet" href="main.css">
+
+    <script type="module" src="main.js"></script>
+    <script type="module" src="auth.js"></script>
+
+    <!-- firebase SDK -->
+    <script src="/__/firebase/init.js"></script>
+    <script src="/__/firebase/7.15.0/firebase-app.js"></script>
+    <script src="/__/firebase/7.15.0/firebase-auth.js"></script>
 </head>
 <body>
     <h1>Hello you Pokemon</h1>
     <form action="user/signInWithEmailAndPassword" method="POST">
-        <input class="register-signin-form" type="email" id="email" name="email" placeholder="Your E-Mail address" />
-        <input class="register-signin-form" type="password" id="password" name="password" placeholder="" />
+        <input class="register-signin-form" type="email" id="email" name="email" placeholder="Your E-Mail address" required/>
+        <input class="register-signin-form" type="password" id="password" name="password" placeholder="" required/>
         <input class="register-signin-form" type="submit" id="register" name="register" formaction="/user/createUserWithEmailAndPassword" value="Register" />
         <input class="register-signin-form" type="submit" id="signin" name="signin" formaction="/user/signInWithEmailAndPassword" value="Sign In" />
     </form>
