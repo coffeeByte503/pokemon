@@ -1,39 +1,40 @@
 /* reset borders from individual settings to zero */
+
 * {
-	margin: 0 auto;
-	padding: 0 auto;
-	border: none;
+    margin: 0 auto;
+    padding: 0 auto;
+    border: none;
 }
+
 
 /* provide fonts */
-@font-face { font-family: 'Pixelar Regular';
-             src: url('fonts/Pixelar Regular.otf') format('opentype'); }
-@font-face { font-family: 'Pixelar Outline';
-             src: url('fonts/Pixelar Outline.otf') format('opentype'); }
-@font-face { font-family: 'Pixelar Outline Textured';
-             src: url('fonts/Pixelar Outline Textured.otf') format('opentype'); }
-@font-face { font-family: 'Pixelar Textured';
-             src: url('fonts/Pixelar Textured.otf') format('opentype'); }
-@font-face { font-family: 'PermianSans';
-             src: url('fonts/PermianSansTypeface.otf') format('opentype'); }
-@font-face { font-family: 'PermianSansBold';
-             src: url('fonts/PermianSansTypeface-Bold.otf') format('opentype'); }
-@font-face { font-family: 'PermianSansItalic';
-             src: url('fonts/PermianSansTypeface-Italic.otf') format('opentype'); }
-@font-face { font-family: 'Rimbo';
-             src: url('fonts/Rimbo-Regular.otf') format('opentype'); }
+
+@font-face {
+    font-family: 'Rimbo';
+    src: url('fonts/Rimbo-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Gubia';
+    src: url('fonts/Gubia-Bold-Alternate.otf') format('opentype');
+}
+
 
 /* set general font and background colour */
-html {
-	background-color: #EFB22D;
-	color: #E23D28;
-	font-family: PermianSans, Arial, sans-serif;
+
+html,
+body {
+    height: 100%;
+    background-color: #E23D28;
+    color: #EFB22D;
+    font-family: Rimbo, Arial, sans-serif;
 }
 
-html, body {
-	height: 100%;
-}
 
-h1 {
-	font-family: Rimbo;
+/* sign up and login form */
+
+.register-signin-form {
+    font-family: Gubia;
+    background-color: #EFB22D;
+    color: #E23D28;
 }
